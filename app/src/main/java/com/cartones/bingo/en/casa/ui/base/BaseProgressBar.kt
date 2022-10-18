@@ -1,4 +1,4 @@
-package com.canta.bingo.cartones.loteria.ui.base
+package com.cartones.bingo.en.casa.ui.base
 
 import android.app.Activity
 import android.view.Gravity

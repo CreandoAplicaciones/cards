@@ -1,4 +1,4 @@
-package com.canta.bingo.cartones.loteria
+package com.cartones.bingo.en.casa
 
 import org.junit.Test
 

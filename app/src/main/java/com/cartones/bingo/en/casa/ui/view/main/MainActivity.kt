@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.viewModels
 import androidx.core.view.isVisible
-import com.canta.bingo.cartones.loteria.ui.base.BaseActivity
+import com.cartones.bingo.en.casa.ui.base.BaseActivity
 import com.cartones.bingo.en.casa.databinding.ActivityMainBinding
 import com.cartones.bingo.en.casa.ui.common.extension.observe
 import com.cartones.bingo.en.casa.ui.view.main.MainViewModel.Event.*

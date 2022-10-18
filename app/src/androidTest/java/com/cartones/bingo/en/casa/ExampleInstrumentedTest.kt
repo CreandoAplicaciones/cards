@@ -1,4 +1,4 @@
-package com.canta.bingo.cartones.loteria
+package com.cartones.bingo.en.casa
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

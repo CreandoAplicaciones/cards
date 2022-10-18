@@ -1,7 +1,7 @@
 package com.cartones.bingo.en.casa.ui.view.main
 
 import androidx.lifecycle.viewModelScope
-import com.canta.bingo.cartones.loteria.ui.base.BaseViewModel
+import com.cartones.bingo.en.casa.ui.base.BaseViewModel
 import com.cartones.bingo.en.casa.ui.common.ADMOB
 import com.cartones.bingo.en.casa.ui.common.BANNER
 import com.cartones.bingo.en.casa.ui.common.SHOW_BANNER
@@ -18,16 +18,16 @@ class MainViewModel : BaseViewModel() {
 
     private val eventChannel = Channel<Event>(Channel.BUFFERED)
     val eventsFlow = eventChannel.receiveAsFlow()
-    private var db = Firebase.firestore
+  //  private var db = Firebase.firestore
     private var banner = false
 
     //region ViewModel Input
     fun initFlow() {
         doAction(Event.SetUp)
-        getAdmobBanner()
+   //     getAdmobBanner()
     }
 
-    private fun getAdmobBanner() {
+ /*   private fun getAdmobBanner() {
         viewModelScope.launch {
             val maximum = db.collection(ADMOB).document(BANNER)
             maximum.get()
@@ -41,6 +41,8 @@ class MainViewModel : BaseViewModel() {
                 }
         }
     }
+    
+  */
 
 
 

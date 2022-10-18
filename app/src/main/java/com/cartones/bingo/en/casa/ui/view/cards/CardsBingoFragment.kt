@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import com.canta.bingo.cartones.loteria.ui.base.BaseFragment
+import com.cartones.bingo.en.casa.ui.base.BaseFragment
 import com.cartones.bingo.en.casa.databinding.FragmentCardsBingoBinding
 import com.cartones.bingo.en.casa.ui.common.extension.observe
 

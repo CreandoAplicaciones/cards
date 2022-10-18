@@ -1,7 +1,7 @@
 package com.cartones.bingo.en.casa.ui.view.cards
 
 import androidx.lifecycle.viewModelScope
-import com.canta.bingo.cartones.loteria.ui.base.BaseViewModel
+import com.cartones.bingo.en.casa.ui.base.BaseViewModel
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch

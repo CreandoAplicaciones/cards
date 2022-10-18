@@ -1,4 +1,4 @@
-package com.canta.bingo.cartones.loteria.ui.base
+package com.cartones.bingo.en.casa.ui.base
 
 sealed class BaseEvent {
     data class ShowMessage(val message: Int): BaseEvent()
